@@ -1,0 +1,111 @@
+
+body
+{
+    background-color: #f1da44;
+}
+a
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 300%;
+
+    padding: 6%;
+}
+a:link
+{
+    text-decoration: none;
+
+    color: Orange;
+    background-color: transparent;
+}
+
+a:visited
+{
+    text-decoration: none;
+
+    color: pink;
+    background-color: transparent;
+}
+
+a:hover
+{
+    text-decoration: none;
+
+    color: blue;
+    background-color: transparent;
+}
+h1
+{
+    font-family: 'Mali', cursive;
+		font-size: 600%;
+
+    text-align: center;
+
+    color: Blue;
+}
+#information
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 250%;
+
+    padding: 6%;
+
+    Color: #f1a244;
+}
+#tours
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 250%;
+
+    padding: 6%;
+
+    Color: #f1a244;
+}
+.bluetext
+{
+    color: blue;
+}
+pre
+{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 23px;
+
+    text-align: center;
+
+    color: red;
+}
+iframe
+{
+    position: centre;
+
+    padding: 6%;
+}
+#back2Top
+{
+    font-size: 70px;
+    line-height: 20px;
+
+    position: fixed;
+    z-index: 999;
+    right: 0;
+    bottom: 50px;
+
+    display: none;
+    overflow: hidden;
+
+    width: 20px;
+
+    cursor: pointer;
+    -webkit-transform: rotate(-90deg);
+       -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+         -o-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    text-align: right;
+    text-decoration: none;
+
+    color: blue;
+}
+#back2Top:hover
+{
+    color: #fff;
+}
